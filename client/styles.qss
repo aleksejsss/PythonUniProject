@@ -1,0 +1,145 @@
+/* Define custom fonts */
+@font-face {
+    font-family: "CircularSpotifyText-Book";
+    src: url("client/fonts/CircularSpotifyText-Book.otf");
+}
+
+@font-face {
+    font-family: "CircularSpotifyText-Bold";
+    src: url("client/fonts/CircularSpotifyText-Bold.otf");
+}
+
+@font-face {
+    font-family: "CircularSpotifyText-BookItalic";
+    src: url("client/fonts/CircularSpotifyText-BookItalic.otf");
+}
+
+@font-face {
+    font-family: "CircularSpotifyText-MediumItalic";
+    src: url("client/fonts/CircularSpotifyText-MediumItalic.otf");
+}
+
+@font-face {
+    font-family: "CircularSpotifyText-Medium";
+    src: url("client/fonts/CircularSpotifyText-Medium.otf");
+}
+
+@font-face {
+    font-family: "CircularSpotifyText-Light";
+    src: url("client/fonts/CircularSpotifyText-Light.otf");
+}
+
+@font-face {
+    font-family: "CircularSpotifyText-BlackItalic";
+    src: url("client/fonts/CircularSpotifyText-BlackItalic.otf");
+}
+
+@font-face {
+    font-family: "CircularSpotifyText-Black";
+    src: url("client/fonts/CircularSpotifyText-Black.otf");
+}
+
+/* General UI Elements */
+* {
+    font-family: "CircularSpotifyText-Book", sans-serif;
+    color: #b3b3b3; /* Light gray text */
+    background-color: #121212; /* Very dark background */
+}
+
+/* Buttons */
+QPushButton {
+    font-family: "CircularSpotifyText-Bold", sans-serif;
+    font-size: 16px;
+    color: white;
+    background-color: #1db954; /* Spotify green */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px; /* Rounded corners */
+    opacity: 1; /* Ensure button is fully opaque */
+    text-align: center; /* Center the text in the button */
+}
+
+/* Buttons on hover */
+QPushButton:hover {
+    background-color: #1a9e4a; /* Slightly darker green for hover effect */
+}
+
+/* Buttons when clicked */
+QPushButton:pressed {
+    background-color: #179b4f;
+}
+
+/* Labels */
+QLabel {
+    font-family: "CircularSpotifyText", sans-serif;
+    font-size: 14px;
+    color: #b3b3b3;
+}
+
+/* Line Edits (Text Input Fields) */
+QLineEdit {
+    font-family: "CircularSpotifyText", sans-serif;
+    font-size: 14px;
+    color: #b3b3b3;
+    background-color: #212121; /* Dark background for text fields */
+    border: 1px solid #535353; /* Border color */
+    padding: 8px;
+    border-radius: 5px;
+}
+
+/* Combo Boxes */
+QComboBox {
+    font-family: "CircularSpotifyText", sans-serif;
+    font-size: 14px;
+    color: #b3b3b3;
+    background-color: #212121;
+    border: 1px solid #535353;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+/* Sliders */
+QSlider {
+    font-family: "CircularSpotifyText", sans-serif;
+    font-size: 14px;
+    color: #b3b3b3;
+    background-color: #212121;
+}
+
+/* Checkboxes */
+QCheckBox {
+    font-family: "CircularSpotifyText", sans-serif;
+    font-size: 14px;
+    color: #b3b3b3;
+}
+
+/* Radio Buttons */
+QRadioButton {
+    font-family: "CircularSpotifyText", sans-serif;
+    font-size: 14px;
+    color: #b3b3b3;
+}
+
+/* List Views (like QListView, QTreeView) */
+QListView, QTreeView {
+    font-family: "CircularSpotifyText", sans-serif;
+    font-size: 14px;
+    color: #b3b3b3;
+    background-color: #212121;
+}
+
+/* Scroll Bars */
+QScrollBar {
+    font-family: "CircularSpotifyText", sans-serif;
+    font-size: 12px;
+    background-color: #212121;
+}
+
+QScrollBar::handle {
+    background-color: #535353;
+}
+
+/* Window */
+QWidget {
+    background-color: #121212; /* Very dark background */
+}

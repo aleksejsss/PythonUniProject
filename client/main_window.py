@@ -1,1 +1,0 @@
-# [main_window.py] Main logic for the GUI
