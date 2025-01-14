@@ -3,10 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login Successful</title>
+    <title>Authorization Success</title>
 </head>
 <body>
-    <h1>You have successfully logged in!</h1>
-    <p>You can now return to the app.</p>
+    <h1>Authorization Success</h1>
+    <p>Token Information:</p>
+    <pre>{{ token_info }}</pre>
+    <p>User Session ID: {{ sid }}</p>
 </body>
 </html>

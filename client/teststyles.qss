@@ -38,7 +38,6 @@ QWidget {
     font-family: "Roboto", sans-serif;
     font-weight: 500;  /* Medium */
     font-size: 14px;
-    max-width: 160px;
 }
 
 #h3 {
@@ -46,6 +45,4 @@ QWidget {
     font-family: "Roboto", sans-serif;
     font-weight: 400;  /* Regular */
     font-size: 13px;
-    max-width: 160px;
 }
-
